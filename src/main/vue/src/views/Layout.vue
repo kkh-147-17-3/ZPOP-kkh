@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from "vue";
-import Header from "@/components/header/header.vue";
+import Header from "@/components/header/Header.vue";
 import LoginModal from '@/components/modal/LoginModal.vue';
 import ModalError from "@/components/modal/ServerError.vue";
 

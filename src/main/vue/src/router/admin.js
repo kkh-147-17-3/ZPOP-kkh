@@ -16,7 +16,7 @@ import AdminMemberList from "@/views/admin/member/List.vue";
 import AdminEvaluation from "@/views/admin/member/Evaluation.vue";
 import AdminParticipation from "@/views/admin/member/Participation.vue";
 import AdminLogin from "@/views/admin/Login.vue";
-import AdminBannerList from "@/views/admin/banner/list.vue"
+import AdminBannerList from "@/views/admin/banner/List.vue"
 
 import { useMemberStore } from "@/stores/memberStore";
 

@@ -3,7 +3,7 @@
   import { useMemberStore } from "@/stores/memberStore";
   import { useLoginModalStore } from "@/stores/loginModalStore";
   import { useReplyStore } from '@/stores/replyStore'
-  import { useCommentStore } from '@/stores/CommentStore'
+  import { useCommentStore } from '@/stores/commentStore'
   import ReplyList from "./ReplyList.vue";
   import InputBox from './InputBox.vue';
   import SelectModal from './SelectModal.vue';

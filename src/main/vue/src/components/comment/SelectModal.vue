@@ -3,7 +3,7 @@
     import CommentModal from './CommentModal.vue';
     import CommentReportModal from '../report/ReportComment.vue';
     import { useCommentStore } from '@/stores/commentStore.js';
-    import { useReplyStore } from '@/stores/ReplyStore'
+    import { useReplyStore } from '@/stores/replyStore'
     import { useMemberStore } from "@/stores/memberStore";
     import { useLoginModalStore } from "@/stores/loginModalStore";
     

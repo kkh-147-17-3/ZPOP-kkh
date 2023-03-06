@@ -3,7 +3,7 @@ import { ref } from "vue";
 import api from "@/api";
 import { useMeetingDetailStore } from "@/stores/meetingDetailStore";
 import { useCommentStore } from "@/stores/commentStore";
-import { useReplyStore } from '@/stores/ReplyStore'
+import { useReplyStore } from '@/stores/replyStore'
 import ModalDefault from "@/components/modal/Default.vue";
 import { ServerException } from "@/utils/ServerException";
 

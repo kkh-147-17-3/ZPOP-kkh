@@ -3,7 +3,7 @@
   import api from "@/api";
   import { useMemberStore } from "@/stores/memberStore";
   import { useLoginModalStore } from "@/stores/loginModalStore";
-  import { useReplyStore } from '@/stores/ReplyStore'
+  import { useReplyStore } from '@/stores/replyStore'
   import InputBox from './InputBox.vue';
   import SelectModal from './SelectModal.vue';
   

@@ -1,6 +1,6 @@
 import api from '@/api/admin';
 import { reactive } from 'vue';
-import UpdateForm from '../../updateForm';
+import UpdateForm from '../../UpdateForm';
 
 
 export default class AdminUpdateForm extends UpdateForm{

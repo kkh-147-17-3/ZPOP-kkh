@@ -522,7 +522,7 @@ public class DefaultMeetingService implements MeetingService {
 		String fileName = fileNameGenerator.getFileNameWithDateTime();
 		
 		String completePath = path + File.separator + fileName;
-
+		System.out.println(completePath);
 		InputStream fis = file.getInputStream();
 		OutputStream fos = new FileOutputStream(completePath);
 

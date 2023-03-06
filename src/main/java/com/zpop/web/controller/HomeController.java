@@ -49,7 +49,7 @@ public class HomeController {
 	public ResponseEntity<?> uploadFile(@NotNull MultipartFile file 
 							, @NotNull @NotEmpty String path
 							,HttpServletRequest request) throws IOException{
-		String realPath = "/usr/ZPOP" + path;
+		String realPath = "/usr/zpop" + path;
 		MeetingFile meetingFile = meetingService.uploadFile(file, realPath);
 		System.out.println(meetingFile);
 		return ResponseEntity.ok(meetingFile);
