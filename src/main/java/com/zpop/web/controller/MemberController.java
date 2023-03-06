@@ -164,7 +164,7 @@ public ResponseEntity<ProfileFile> uploadFile(@NotNull MultipartFile file
 		, @NotNull @NotEmpty String path
 		, HttpServletRequest request
 		, @AuthenticationPrincipal ZpopUserDetails userDetails) throws IOException {
-	String realPath = request.getServletContext().getRealPath(path);
+	String realPath = "/usr/zpop" + path;
 	System.out.println(realPath);
 
 	int memberId = userDetails.getId();

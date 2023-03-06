@@ -41,13 +41,19 @@ watch(meetingListStore, async () => {
   state.lastId = null;
   const list = await requestList();
   resetMeetigns();
-  if (!list || list.length === 0) return;
+  if (!list || list.length === 0) {
+    firstLoaded.value = true;
+    return;
+  }
   addMeetings(list);
 });
 
 // 첫 meeting list page 조회시 호출
 requestList().then((data) => {
-  if (!data || data.length === 0) return;
+  if (!data || data.length === 0) {
+    firstLoaded.value = true;
+    return;
+  }
   addMeetings(data);
   firstLoaded.value = true;
 });
