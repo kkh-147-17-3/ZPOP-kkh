@@ -275,7 +275,7 @@ const requestData = () => {
     listData.isLoaded = false;
     isChecked.length = 0;
 
-    fetch(`/api/${route.path}${window.location.search}`)
+    fetch(`/api${route.path}${window.location.search}`)
         .then(res => res.json())
         .then(data => {
             listData.reportedMeetings = [];
